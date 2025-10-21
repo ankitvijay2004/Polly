@@ -1,0 +1,18 @@
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 20px; /* Adjust the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--custom-track, #f2cc8f); /* Track color */
+  box-shadow: 0 0 0 3px #f2cc8f; /* Outward border effect */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--custom-thumb, #e07a5f); /* Thumb color */
+  border-radius: 4px; /* Optional: rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e07a5f; /* Hover effect */
+}

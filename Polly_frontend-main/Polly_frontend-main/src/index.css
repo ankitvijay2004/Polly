@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --retro_blue: #3d405b;
+  --retro_red: #e07a5f;
+  --retro_green: #81b29a;
+  --retro_bg_light: #f4f1de;
+  --retro_bg_med: #ede8c3;
+  --retro_bg_dark: #f2cc8f;
+  --retro_border: #b19569;
+}
